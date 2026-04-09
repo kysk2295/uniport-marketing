@@ -5,3 +5,5 @@ node_modules/
 *.jpeg
 booth-deck/UniPort_부스이벤트_기획안.pptx
 booth-deck/UniPort_부스이벤트_기획서.docx
+tools/.env
+slides/*/slide-*.jpg
