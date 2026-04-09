@@ -1,0 +1,14 @@
+{
+  "name": "uniport-marketing-tools",
+  "version": "1.0.0",
+  "description": "UniPort 인스타그램 카드뉴스 자동 생성 및 게시 도구",
+  "scripts": {
+    "generate": "node generate-slides.js",
+    "publish": "node publish-instagram.js",
+    "run-all": "node run-all.js"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "puppeteer-core": "^24.0.0"
+  }
+}

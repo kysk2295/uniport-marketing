@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #F8FAFC; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #4F46E5; padding: 18pt 40pt;
+  display: flex; align-items: center;
+}
+.header h1 { color: #FFFFFF; font-size: 20pt; margin: 0; }
+.header .num p { color: #818CF8; font-size: 13pt; font-weight: bold; margin: 0 16pt 0 0; }
+.content {
+  flex: 1; display: flex; align-items: center;
+  padding: 20pt 40pt; gap: 0;
+}
+.step {
+  flex: 1; display: flex; flex-direction: column; align-items: center;
+}
+.step-num {
+  width: 36pt; height: 36pt; border-radius: 50%;
+  background: #4F46E5; display: flex; align-items: center; justify-content: center;
+  margin-bottom: 12pt;
+}
+.step-num p { color: #FFFFFF; font-size: 14pt; font-weight: bold; margin: 0; text-align: center; }
+.step-title p { color: #1E293B; font-size: 13pt; font-weight: bold; text-align: center; margin: 0 0 8pt 0; }
+.step-body p { color: #64748B; font-size: 10pt; text-align: center; margin: 0; line-height: 1.5; }
+.step-tag {
+  border-radius: 12pt; margin-top: 10pt; padding: 4pt 12pt;
+}
+.free { background: #EEF2FF; }
+.free p { color: #4F46E5; font-size: 9pt; font-weight: bold; margin: 0; }
+.promo { background: #F0FDF4; }
+.promo p { color: #16A34A; font-size: 9pt; font-weight: bold; margin: 0; }
+.paid { background: #FFF7ED; }
+.paid p { color: #EA580C; font-size: 9pt; font-weight: bold; margin: 0; }
+.arrow {
+  display: flex; align-items: center; padding: 0 8pt; margin-top: -30pt;
+}
+.arrow p { color: #CBD5E1; font-size: 20pt; margin: 0; }
+.flow-label p {
+  color: #94A3B8; font-size: 9pt; text-align: center;
+  margin: 20pt 0 0 0; letter-spacing: 1pt;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="num"><p>02</p></div>
+  <h1>부스 운영 흐름</h1>
+</div>
+<div class="content">
+  <div class="step">
+    <div class="step-num"><p>1</p></div>
+    <div class="step-title"><p>접근 유도</p></div>
+    <div class="step-body"><p>현수막, 태블릿 화면,<br>슬러시 증정 안내로<br>발걸음을 멈추게 함</p></div>
+    <div class="step-tag free"><p>슬러시 미끼</p></div>
+    <div class="flow-label"><p>30초</p></div>
+  </div>
+  <div class="arrow"><p>→</p></div>
+  <div class="step">
+    <div class="step-num"><p>2</p></div>
+    <div class="step-title"><p>투자성향 테스트</p></div>
+    <div class="step-body"><p>5문항 MBTI식 테스트<br>결과지 출력 증정<br>SNS 공유 유도</p></div>
+    <div class="step-tag free"><p>무료 미션</p></div>
+    <div class="flow-label"><p>1분</p></div>
+  </div>
+  <div class="arrow"><p>→</p></div>
+  <div class="step">
+    <div class="step-num"><p>3</p></div>
+    <div class="step-title"><p>앱 모의투자 대회</p></div>
+    <div class="step-body"><p>앱 설치 후 그룹<br>투자 대회 참여<br>친구 초대 보상</p></div>
+    <div class="step-tag promo"><p>홍보 미션</p></div>
+    <div class="flow-label"><p>2분</p></div>
+  </div>
+  <div class="arrow"><p>→</p></div>
+  <div class="step">
+    <div class="step-num"><p>4</p></div>
+    <div class="step-title"><p>부트캠프 할인권</p></div>
+    <div class="step-body"><p>30일 투자 부트캠프<br>할인권 현장 구매<br>사전등록 완료</p></div>
+    <div class="step-tag paid"><p>유료 상품</p></div>
+    <div class="flow-label"><p>선택</p></div>
+  </div>
+</div>
+</body>
+</html>

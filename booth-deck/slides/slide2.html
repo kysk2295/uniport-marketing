@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FFFFFF; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #4F46E5; padding: 18pt 40pt;
+  display: flex; align-items: center;
+}
+.header h1 { color: #FFFFFF; font-size: 20pt; margin: 0; }
+.header .num p {
+  color: #818CF8; font-size: 13pt; font-weight: bold;
+  margin: 0 16pt 0 0;
+}
+.content {
+  flex: 1; display: flex; padding: 28pt 40pt; gap: 24pt;
+}
+.col {
+  flex: 1; display: flex; flex-direction: column; gap: 16pt;
+}
+.section-label p {
+  color: #4F46E5; font-size: 10pt; font-weight: bold;
+  letter-spacing: 1pt; margin: 0 0 8pt 0;
+}
+.card {
+  background: #F8FAFC; border-radius: 10pt;
+  border-left: 4pt solid #4F46E5;
+  padding: 16pt 20pt;
+  flex: 1;
+}
+.card h2 { color: #1E293B; font-size: 14pt; margin: 0 0 8pt 0; }
+.card p { color: #64748B; font-size: 11pt; margin: 0; line-height: 1.5; }
+.card-accent {
+  background: #4F46E5; border-radius: 10pt;
+  padding: 16pt 20pt; flex: 1;
+}
+.card-accent h2 { color: #FFFFFF; font-size: 14pt; margin: 0 0 8pt 0; }
+.card-accent p { color: #C7D2FE; font-size: 11pt; margin: 0; line-height: 1.5; }
+.divider-v {
+  width: 1pt; background: #E2E8F0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="num"><p>01</p></div>
+  <h1>이벤트 개요</h1>
+</div>
+<div class="content">
+  <div class="col">
+    <div class="section-label"><p>배경 및 목적</p></div>
+    <div class="card">
+      <h2>왜 부스 이벤트인가?</h2>
+      <p>출시 전 잠재 유저를 직접 만나 앱 체험과 사전등록을 유도합니다. 70%의 대학생이 투자 입문을 아직 하지 않은 캠퍼스 환경에서 가장 효율적인 접점입니다.</p>
+    </div>
+    <div class="card">
+      <h2>핵심 지표</h2>
+      <p>방문자 수보다 <b>사전등록 전환율</b>이 핵심입니다. 부스 접촉 → 앱 체험 → 연락처 수집의 3단계 전환을 설계합니다.</p>
+    </div>
+  </div>
+  <div class="divider-v"></div>
+  <div class="col">
+    <div class="section-label"><p>운영 구조</p></div>
+    <div class="card-accent">
+      <h2>1~2분 체험 미션</h2>
+      <p>짧고 강렬한 체험으로 UniPort의 핵심 가치를 전달합니다. 지나가는 학생이 멈출 수 있도록 설계된 흐름입니다.</p>
+    </div>
+    <div class="card">
+      <h2>3가지 프로그램</h2>
+      <p><b>무료</b>: 투자성향 테스트<br><b>홍보</b>: 그룹 모의투자 대회<br><b>유료</b>: 부트캠프 할인권 판매</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

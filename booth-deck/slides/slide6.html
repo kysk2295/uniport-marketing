@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FFFFFF; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #EA580C; padding: 18pt 40pt;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.header-left { display: flex; align-items: center; }
+.header .num p { color: #FED7AA; font-size: 13pt; font-weight: bold; margin: 0 16pt 0 0; }
+.header h1 { color: #FFFFFF; font-size: 20pt; margin: 0; }
+.header .tag { background: #FFF7ED; border-radius: 20pt; padding: 4pt 14pt; }
+.header .tag p { color: #EA580C; font-size: 10pt; font-weight: bold; margin: 0; }
+.content {
+  flex: 1; display: flex; padding: 18pt 40pt; gap: 28pt; align-items: stretch;
+}
+.left { flex: 1.1; display: flex; flex-direction: column; gap: 10pt; }
+.right { flex: 1; display: flex; flex-direction: column; gap: 10pt; }
+.section-label p { color: #EA580C; font-size: 9pt; font-weight: bold; letter-spacing: 1pt; margin: 0 0 4pt 0; }
+h2 { color: #1E293B; font-size: 18pt; margin: 0 0 6pt 0; }
+.desc p { color: #64748B; font-size: 11pt; margin: 0; line-height: 1.5; }
+.price-box {
+  background: #FFF7ED; border: 2pt solid #EA580C; border-radius: 12pt;
+  padding: 16pt 20pt; display: flex; flex-direction: column; align-items: flex-start;
+}
+.price-box .price-label p { color: #EA580C; font-size: 9pt; font-weight: bold; margin: 0 0 4pt 0; }
+.price-box .price-value p { color: #1E293B; font-size: 22pt; font-weight: bold; margin: 0; }
+.price-box .price-sub p { color: #9A3412; font-size: 10pt; margin: 4pt 0 0 0; }
+.include-box {
+  background: #F8FAFC; border-radius: 10pt; padding: 14pt 16pt; flex: 1;
+}
+.include-box h3 { color: #1E293B; font-size: 12pt; margin: 0 0 8pt 0; }
+.include-box ul { margin: 0; padding-left: 14pt; }
+.include-box li { color: #64748B; font-size: 10pt; margin: 0 0 4pt 0; }
+.note-box {
+  background: #FFFBEB; border-left: 3pt solid #F59E0B;
+  border-radius: 0 8pt 8pt 0; padding: 10pt 14pt;
+}
+.note-box p { color: #92400E; font-size: 10pt; margin: 0; line-height: 1.4; }
+.strategy-box {
+  background: #EA580C; border-radius: 10pt; padding: 14pt 16pt; flex: 1;
+}
+.strategy-box h3 { color: #FFFFFF; font-size: 12pt; margin: 0 0 8pt 0; }
+.strategy-box p { color: #FED7AA; font-size: 10pt; margin: 0; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-left">
+    <div class="num"><p>05</p></div>
+    <h1>유료 상품: 30일 투자 부트캠프</h1>
+  </div>
+  <div class="tag"><p>현장 판매</p></div>
+</div>
+<div class="content">
+  <div class="left">
+    <div class="section-label"><p>상품 개요</p></div>
+    <h2>투자 입문의 완성,<br>30일 부트캠프</h2>
+    <div class="desc"><p>투자성향 테스트 체험 후 "더 깊이 배우고 싶다"는 수요를 현장에서 즉시 전환합니다. 부스 현장 한정 할인가로 판매합니다.</p></div>
+    <div class="price-box">
+      <div class="price-label"><p>현장 특별가</p></div>
+      <div class="price-value"><p>정가의 30% 할인</p></div>
+      <div class="price-sub"><p>부스 방문자 한정 · 수량 제한</p></div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="include-box">
+      <h3>부트캠프 포함 내용</h3>
+      <ul>
+        <li>30일 단계별 투자 커리큘럼</li>
+        <li>UniPort 앱 내 그룹 투자 실습</li>
+        <li>매주 투자 결과 리포트 제공</li>
+        <li>수료 후 투자자 유형 재진단</li>
+      </ul>
+    </div>
+    <div class="strategy-box">
+      <h3>판매 전략</h3>
+      <p>테스트 결과지를 보여주며 연결<br>"OO형 투자자에게 맞는 커리큘럼"<br>수량 한정으로 희소성 부여<br>당일 결제 시 추가 혜택 제공</p>
+    </div>
+    <div class="note-box">
+      <p>굳이 없어도 되는 유료 상품이지만, 투자 교육에 진지한 고관여 유저를 조기에 확보하는 효과가 있습니다.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

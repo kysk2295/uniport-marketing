@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FFFFFF; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #4F46E5; padding: 18pt 40pt;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.header-left { display: flex; align-items: center; }
+.header .num p { color: #818CF8; font-size: 13pt; font-weight: bold; margin: 0 16pt 0 0; }
+.header h1 { color: #FFFFFF; font-size: 20pt; margin: 0; }
+.header .tag { background: #EEF2FF; border-radius: 20pt; padding: 4pt 14pt; }
+.header .tag p { color: #4F46E5; font-size: 10pt; font-weight: bold; margin: 0; }
+.content {
+  flex: 1; display: flex; padding: 24pt 40pt; gap: 28pt;
+}
+.left { flex: 1.2; display: flex; flex-direction: column; gap: 14pt; }
+.right { flex: 1; display: flex; flex-direction: column; gap: 14pt; }
+.section-label p { color: #4F46E5; font-size: 9pt; font-weight: bold; letter-spacing: 1pt; margin: 0 0 6pt 0; }
+h2 { color: #1E293B; font-size: 18pt; margin: 0 0 6pt 0; }
+.desc p { color: #64748B; font-size: 11pt; margin: 0; line-height: 1.5; }
+.question-box {
+  background: #F8FAFC; border-radius: 10pt; padding: 14pt 16pt;
+}
+.question-box p { color: #1E293B; font-size: 11pt; margin: 0 0 6pt 0; line-height: 1.4; }
+.question-box p:last-child { margin: 0; }
+.result-box {
+  background: #4F46E5; border-radius: 10pt; padding: 14pt 16pt;
+  flex: 1;
+}
+.result-box h3 { color: #FFFFFF; font-size: 13pt; margin: 0 0 8pt 0; }
+.result-box p { color: #C7D2FE; font-size: 10pt; margin: 0; line-height: 1.5; }
+.reward-box {
+  background: #F8FAFC; border-left: 4pt solid #4F46E5;
+  border-radius: 0 10pt 10pt 0; padding: 12pt 16pt;
+}
+.reward-box h3 { color: #1E293B; font-size: 12pt; margin: 0 0 6pt 0; }
+.reward-box p { color: #64748B; font-size: 10pt; margin: 0; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-left">
+    <div class="num"><p>03</p></div>
+    <h1>미션 ① 투자성향 테스트</h1>
+  </div>
+  <div class="tag"><p>무료 · 슬러시 증정</p></div>
+</div>
+<div class="content">
+  <div class="left">
+    <div class="section-label"><p>미션 개요</p></div>
+    <h2>나는 어떤 투자자일까?</h2>
+    <div class="desc"><p>5문항의 MBTI식 투자성향 테스트. 결과는 4가지 투자자 유형 중 하나로 분류되며, 결과지를 출력해 증정합니다. SNS 공유 유도로 바이럴 효과를 기대합니다.</p></div>
+    <div class="question-box">
+      <p><b>Q1.</b> 주가가 10% 떨어지면 어떻게 할까요?</p>
+      <p><b>Q2.</b> 투자 결정 전 얼마나 정보를 찾나요?</p>
+      <p><b>Q3.</b> 손실과 수익 중 어느 감정이 더 강한가요?</p>
+      <p>+ 2문항 더</p>
+    </div>
+  </div>
+  <div class="right">
+    <div class="result-box">
+      <h3>4가지 결과 유형</h3>
+      <p>🦁 공격형 — "올인 투자자"<br>🦊 분석형 — "데이터 투자자"<br>🐢 안정형 — "장기 투자자"<br>🦋 탐색형 — "입문 투자자"</p>
+    </div>
+    <div class="reward-box">
+      <h3>보상 구조</h3>
+      <p>참여 시 → 슬러시 또는 사탕 증정<br>SNS 공유 시 → 추가 기념품 증정<br>사전등록 완료 시 → 부트캠프 할인 쿠폰</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

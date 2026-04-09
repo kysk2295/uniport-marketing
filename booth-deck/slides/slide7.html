@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FFFFFF; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #4F46E5; padding: 18pt 40pt;
+  display: flex; align-items: center;
+}
+.header .num p { color: #818CF8; font-size: 13pt; font-weight: bold; margin: 0 16pt 0 0; }
+.header h1 { color: #FFFFFF; font-size: 20pt; margin: 0; }
+.content {
+  flex: 1; display: flex; padding: 24pt 40pt; gap: 20pt;
+}
+.col { flex: 1; display: flex; flex-direction: column; gap: 12pt; }
+.section-label p { color: #4F46E5; font-size: 9pt; font-weight: bold; letter-spacing: 1pt; margin: 0 0 4pt 0; }
+.kpi-grid { display: flex; gap: 12pt; }
+.kpi-card {
+  flex: 1; background: #F8FAFC; border-radius: 10pt;
+  border-top: 3pt solid #4F46E5; padding: 14pt 14pt;
+}
+.kpi-card .kpi-val p { color: #4F46E5; font-size: 22pt; font-weight: bold; margin: 0; }
+.kpi-card .kpi-label p { color: #64748B; font-size: 10pt; margin: 4pt 0 0 0; }
+.prep-table {
+  background: #F8FAFC; border-radius: 10pt; padding: 14pt 16pt; flex: 1;
+}
+.prep-table h3 { color: #1E293B; font-size: 12pt; margin: 0 0 10pt 0; }
+.prep-row {
+  display: flex; align-items: center; gap: 10pt; margin-bottom: 6pt;
+}
+.prep-row:last-child { margin-bottom: 0; }
+.prep-dot { width: 6pt; height: 6pt; border-radius: 50%; background: #4F46E5; flex-shrink: 0; }
+.prep-row .item p { color: #1E293B; font-size: 10pt; font-weight: bold; margin: 0; flex: 1; }
+.prep-row .detail p { color: #64748B; font-size: 10pt; margin: 0; }
+.divider-v { width: 1pt; background: #E2E8F0; }
+.success-box {
+  background: #0F172A; border-radius: 10pt; padding: 16pt 18pt;
+}
+.success-box h3 { color: #818CF8; font-size: 12pt; margin: 0 0 10pt 0; }
+.success-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8pt; }
+.success-row:last-child { margin-bottom: 0; }
+.success-row .metric p { color: #94A3B8; font-size: 10pt; margin: 0; }
+.success-row .target p { color: #FFFFFF; font-size: 11pt; font-weight: bold; margin: 0; }
+.timeline-box {
+  background: #EEF2FF; border-radius: 10pt; padding: 14pt 16pt; flex: 1;
+}
+.timeline-box h3 { color: #4F46E5; font-size: 12pt; margin: 0 0 8pt 0; }
+.timeline-box p { color: #6366F1; font-size: 10pt; margin: 0; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="num"><p>06</p></div>
+  <h1>준비 사항 및 기대 성과</h1>
+</div>
+<div class="content">
+  <div class="col">
+    <div class="section-label"><p>목표 지표</p></div>
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-val"><p>100+</p></div>
+        <div class="kpi-label"><p>부스 방문자</p></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val"><p>40%</p></div>
+        <div class="kpi-label"><p>사전등록 전환율</p></div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val"><p>30%</p></div>
+        <div class="kpi-label"><p>앱 설치 전환율</p></div>
+      </div>
+    </div>
+    <div class="prep-table">
+      <h3>준비 물품</h3>
+      <div class="prep-row">
+        <div class="prep-dot"></div>
+        <div class="item"><p>태블릿</p></div>
+        <div class="detail"><p>테스트 진행용 2대 이상</p></div>
+      </div>
+      <div class="prep-row">
+        <div class="prep-dot"></div>
+        <div class="item"><p>결과지</p></div>
+        <div class="detail"><p>4종 유형 카드 사전 인쇄</p></div>
+      </div>
+      <div class="prep-row">
+        <div class="prep-dot"></div>
+        <div class="item"><p>슬러시 머신</p></div>
+        <div class="detail"><p>또는 음료 교환 쿠폰</p></div>
+      </div>
+      <div class="prep-row">
+        <div class="prep-dot"></div>
+        <div class="item"><p>QR코드 배너</p></div>
+        <div class="detail"><p>앱 설치 유도용</p></div>
+      </div>
+      <div class="prep-row">
+        <div class="prep-dot"></div>
+        <div class="item"><p>할인권 재고</p></div>
+        <div class="detail"><p>현장 판매용 50장</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="divider-v"></div>
+  <div class="col">
+    <div class="section-label"><p>성공 기준</p></div>
+    <div class="success-box">
+      <h3>Success Criteria</h3>
+      <div class="success-row">
+        <div class="metric"><p>사전등록 수</p></div>
+        <div class="target"><p>40명 이상</p></div>
+      </div>
+      <div class="success-row">
+        <div class="metric"><p>앱 설치 수</p></div>
+        <div class="target"><p>30명 이상</p></div>
+      </div>
+      <div class="success-row">
+        <div class="metric"><p>부트캠프 할인권 판매</p></div>
+        <div class="target"><p>10장 이상</p></div>
+      </div>
+      <div class="success-row">
+        <div class="metric"><p>SNS 언급 수</p></div>
+        <div class="target"><p>20건 이상</p></div>
+      </div>
+    </div>
+    <div class="timeline-box">
+      <h3>사전 준비 일정</h3>
+      <p>D-14: 부스 신청 및 장소 확보<br>D-7: 결과지 인쇄 및 물품 구매<br>D-3: 테스트 앱 시나리오 점검<br>D-Day: 부스 셋업 2시간 전 완료</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

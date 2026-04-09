@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FFFFFF; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #0F172A; padding: 18pt 40pt;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.header-left { display: flex; align-items: center; }
+.header .num p { color: #4F46E5; font-size: 13pt; font-weight: bold; margin: 0 16pt 0 0; }
+.header h1 { color: #FFFFFF; font-size: 20pt; margin: 0; }
+.header .tag { background: #1E293B; border-radius: 20pt; padding: 4pt 14pt; }
+.header .tag p { color: #818CF8; font-size: 10pt; font-weight: bold; margin: 0; }
+.content {
+  flex: 1; display: flex; padding: 24pt 40pt; gap: 28pt;
+}
+.left { flex: 1; display: flex; flex-direction: column; gap: 14pt; }
+.right { flex: 1; display: flex; flex-direction: column; gap: 12pt; }
+.section-label p { color: #4F46E5; font-size: 9pt; font-weight: bold; letter-spacing: 1pt; margin: 0 0 4pt 0; }
+h2 { color: #1E293B; font-size: 18pt; margin: 0 0 6pt 0; }
+.desc p { color: #64748B; font-size: 11pt; margin: 0; line-height: 1.5; }
+.step-item {
+  display: flex; gap: 12pt; align-items: flex-start;
+}
+.step-dot {
+  width: 24pt; height: 24pt; border-radius: 50%;
+  background: #4F46E5; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+}
+.step-dot p { color: #FFFFFF; font-size: 10pt; font-weight: bold; margin: 0; text-align: center; }
+.step-text { flex: 1; }
+.step-text h3 { color: #1E293B; font-size: 12pt; margin: 0 0 3pt 0; }
+.step-text p { color: #64748B; font-size: 10pt; margin: 0; }
+.highlight-box {
+  background: #0F172A; border-radius: 10pt; padding: 16pt 18pt;
+  flex: 1;
+}
+.highlight-box h3 { color: #818CF8; font-size: 11pt; margin: 0 0 8pt 0; }
+.highlight-box p { color: #CBD5E1; font-size: 10pt; margin: 0; line-height: 1.6; }
+.invite-box {
+  background: #EEF2FF; border-radius: 10pt; padding: 12pt 16pt;
+}
+.invite-box h3 { color: #4F46E5; font-size: 12pt; margin: 0 0 4pt 0; }
+.invite-box p { color: #6366F1; font-size: 10pt; margin: 0; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-left">
+    <div class="num"><p>04</p></div>
+    <h1>미션 ② 그룹 모의투자 대회</h1>
+  </div>
+  <div class="tag"><p>앱 홍보 · 핵심 미션</p></div>
+</div>
+<div class="content">
+  <div class="left">
+    <div class="section-label"><p>미션 개요</p></div>
+    <h2>친구랑 같이 투자해보자</h2>
+    <div class="desc"><p>UniPort 앱을 설치하고 부스 전용 그룹 모의투자 대회에 참가합니다. 현장에서 즉시 종목을 선택하고 투표해볼 수 있어 앱의 핵심 가치를 직접 체험합니다.</p></div>
+    <div class="step-item">
+      <div class="step-dot"><p>1</p></div>
+      <div class="step-text">
+        <h3>앱 설치 및 회원가입</h3>
+        <p>QR코드로 30초 안에 설치 완료</p>
+      </div>
+    </div>
+    <div class="step-item">
+      <div class="step-dot"><p>2</p></div>
+      <div class="step-text">
+        <h3>부스 대회방 입장</h3>
+        <p>초대 코드로 그룹 투자 대회 참가</p>
+      </div>
+    </div>
+    <div class="step-item">
+      <div class="step-dot"><p>3</p></div>
+      <div class="step-text">
+        <h3>종목 선택 투표</h3>
+        <p>"이 주식 살까 말까?" 실시간 그룹 투표</p>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="highlight-box">
+      <h3>대회 기간 및 보상</h3>
+      <p>기간: 부스 행사 당일 ~ 1주일<br>1등: 스타벅스 기프티콘 3만원<br>2~3등: 편의점 상품권 1만원<br>참가자 전원: 부트캠프 할인 쿠폰</p>
+    </div>
+    <div class="invite-box">
+      <h3>친구 초대 보너스</h3>
+      <p>같이 온 친구와 같은 방 입장 시<br>두 사람 모두 추가 보상 지급</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
